@@ -1,0 +1,18 @@
+venv/
+data/
+*/__pycache__/
+*/migrations/__pycache__/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+env
+.env*
+.gitlab*
+.idea/
+.vscode/*
+# Local History for Visual Studio Code
+.history/
+# Built Visual Studio Code Extensions
+*.vsix
