@@ -7,7 +7,20 @@ you have two ways to deploy:
 
 ### linux service:
 
-0. prepare your database and set it up in django settings.py.
+0. prepare your postgres database and create a file ```.env``` including your database connection.
+
+```
+Environment=PROD
+DATABASE_ENGINE=postgresql_psycopg2
+DATABASE_NAME=dbname
+DATABASE_USERNAME=username
+DATABASE_PASSWORD='password'
+DATABASE_HOST='127.0.0.1'
+DATABASE_PORT=1234
+CORS_URLS='' # see the settings.py to customize!
+```
+
+after all, you should put this file beside the manage.py file.
 
 1. Prepare a linux server with python3 installed.
 
