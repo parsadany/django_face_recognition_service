@@ -8,7 +8,7 @@ data/
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 env
-.env*
+.env
 .gitlab*
 .idea/
 .vscode/*
