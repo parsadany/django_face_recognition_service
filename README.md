@@ -1,5 +1,8 @@
 # Django Face Rcognition Service
 
+latest updates on:
+https://github.com/parsadany/django_face_recognition_service
+
 This project is built to deploy easily and consume by apis.
 
 ## Deploy:
