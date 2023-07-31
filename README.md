@@ -77,7 +77,7 @@ server {
 to save and exit :
 ctrl + x -> y -> enter
 
-7. create a socket for your project. ```nano /lib/systemd/system/facerecognitionapi.socket``` then pathe this content in it:
+7. create a socket for your project. ```nano /lib/systemd/system/facerecognitionapi.socket``` then paste this content in it:
 
 ```
 [Unit]
